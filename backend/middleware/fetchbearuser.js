@@ -1,6 +1,6 @@
 const User = require('../models/User');
 var jwt = require('jsonwebtoken');
-const JWT_SECRET = 'jwtsecret$$';
+const JWT_SECRET = 'jwtsecret';
 
 const fetchbearuser = async (req, res, next)=>{
     // Get Authorization Token

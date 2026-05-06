@@ -2,7 +2,7 @@ const {validationResult} = require('express-validator');
 const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 
-const JWT_SECRET = 'jwtsecret$$'
+const JWT_SECRET = 'jwtsecret'
 
 // create New User
 exports.createuser = async (req, res)=>{
